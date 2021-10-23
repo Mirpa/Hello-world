@@ -13,16 +13,30 @@
         text-align: justify; color: whitesmoke; font-family: system-ui, sans-serif}
         .floatLeft {float: left; width: 50%;}
         .floatRight {float: right; width: 50%;}
-        div {text-align: justify; font-family: Arial, Helvetica, sans-serif;}
+        div {text-align: justify; font-family: Arial, Helvetica, sans-serif;
+        column-count: 2; column-gap: 20px;}
         h3 {color: rgb(58, 184, 209); text-decoration: underline; font-family: system-ui, sans-serif;}
+        a {float: left; display: block; text-align: center; padding: 14px 16px;}
+        a:hover {color: black;}
     </style>
     <body>
         <header>
             <h1 id="Name">Mireia Palau Zubielqui</h1>
             <h2 id="JobSearch">Job search intention: Web Developer</h2>
-            <p id="ContactInfo">Barcelona(Spain) | +34699822023 | mirpazu@gmail.com | github.com/Mirpa</p>
+            <p id="ContactInfo">
+                <a href="https://www.google.es/maps/place/Barcelona/@41.3926467,2.0701491,12z/data=!3m1!4b1!4m5!3m4!1s0x12a49816718e30e5:0x44b0fb3d4f47660a!8m2!3d41.3873974!4d2.168568?hl=ca&authuser=0">
+                    <i class="fa fa-map-marker" style="color: whitesmoke;" aria-hidden="true"></i>Barcelona(Spain)
+                </a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <i class="fa fa-mobile" style="color: whitesmoke;" aria-hidden="true"></i>+34699822023&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="https://mail.google.com/">
+                    <i class="fa fa-envelope" style="color: whitesmoke;" aria-hidden="true"></i>mirpazu@gmail.com
+                </a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="https://github.com/Mirpa">
+                    <i class="fa fa-github" style="color: whitesmoke;" aria-hidden="true"></i>github.com/Mirpa
+                </a>
+            </p>
         </header>
-        <div id="left" class="floatLeft">
+        <div id="left">
             <h3>
                 <i class="fa fa-user-circle" style="color: rgb(63, 204, 145)" aria-hidden="true"></i>&nbsp;About Me
             </h3>
@@ -56,8 +70,6 @@
             <ul>
                 <li>Physics Degree (Fundamental Physics mention)</li>
             </ul><br>
-        </div>
-        <div id="right" class="floatRight">
             <h3>
                 <i class="fa fa-flask" style="color: rgb(63, 204, 145)" aria-hidden="true"></i>&nbsp;Skills
             </h3>
