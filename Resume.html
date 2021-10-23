@@ -11,14 +11,12 @@
     <style>
         header {background: linear-gradient(109.6deg, rgb(63, 204, 145) 11.2%, rgb(58, 184, 209) 91.1%);
         text-align: justify; color: whitesmoke; font-family: system-ui, sans-serif}
-        .floatLeft {float: left; width: 50%;}
-        .floatRight {float: right; width: 50%;}
         div {text-align: justify; font-family: Arial, Helvetica, sans-serif;
         column-count: 2; column-gap: 10%; column-width: 40%;}
         h3 {color: rgb(58, 184, 209); text-decoration: underline; font-family: system-ui, sans-serif;}
         a:hover {color: black;}
-        hr {background-color: whitesmoke; border: none; overflow: auto;}
-        ul {list-style-type: none;}
+        hr {background-color: whitesmoke; border-color: whitesmoke; display: auto;}
+        #techSkills #otherSkills #languages {list-style-type: none;}
     </style>
     <body>
         <header>
@@ -76,7 +74,7 @@
                 <i class="fa fa-flask" style="color: rgb(63, 204, 145)" aria-hidden="true"></i>&nbsp;Skills
             </h3>
             <p><strong>Technical Skills</strong>
-                <ul>
+                <ul id="techSkills">
                     <li>K2 Blackpearl</li>
                     <li>C#</li>
                     <li>ASP.NET</li>
@@ -90,7 +88,7 @@
                 </ul>
             </p>
             <p><strong>Other Skills</strong>
-                <ul>
+                <ul id="otherSkills">
                     <li>JIRA Software</li>
                     <li>Confluence</li>
                     <li>HP ALM</li>
@@ -98,7 +96,7 @@
                 </ul>
             </p>
             <p><strong>Languages</strong>
-                <ul>
+                <ul id="languages">
                     <li>Spanish</li>
                     <li>Catalan</li>
                     <li>English</li>
